@@ -1,0 +1,18 @@
+name: esm
+
+dependencies:
+  - python=3.12 
+  - pip
+  - pip:
+      - jupyterlab
+      - tqdm
+      - numpy
+      - pandas
+      - biopython
+      - torch
+      - fair-esm
+      - matplotlib
+      - seaborn
+      - polars
+      - pyarrow
+      #- itable
